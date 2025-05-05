@@ -1,6 +1,6 @@
 # MySQL with Docker
 
-### Config Docker (Ubuntu 22.04)
+### Config Docker [Ubuntu 22.04]
 
 Install docker
 ```bash
@@ -25,7 +25,7 @@ docker -v
 docker compose version
 ```
 
-Fix Docker Permission
+Fix docker permission
 ```bash
 sudo groupadd docker
 sudo usermod -aG docker $USER
@@ -35,7 +35,7 @@ sudo groups $USER
 ---
 
 ### Run MySQL
-Docker Compose Install MySQL
+Docker compose install MySQL
 ```bash
 docker compose up -d
 ```
